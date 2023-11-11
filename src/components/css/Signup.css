@@ -1,0 +1,32 @@
+.form-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.form-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  border-radius: 0.8rem;
+  padding: 2.8rem 1.6rem;
+  box-shadow: 0 0 1.5rem #eee;
+  min-width: 20rem;
+}
+
+.input {
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 0.3rem;
+  border: none;
+  box-shadow: 0 0 0.1rem 0.1rem #ccc;
+}
+.input:focus {
+  box-shadow: 0 0 0.2rem 0.1rem #2d8dfb;
+}
+
+button {
+  padding: 0.5rem;
+}
